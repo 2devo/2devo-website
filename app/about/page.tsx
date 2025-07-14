@@ -146,11 +146,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+     {/* CTA Section */}
       <section className="py-24">
         <div className="container mx-auto px-4">
-          <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30 max-w-4xl mx-auto">
-            <CardContent className="p-12 text-center">
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm max-w-4xl mx-auto">
+            <div className="p-12 text-center">
               <h2 className="text-4xl font-bold text-white mb-6">Birlikte Çalışmaya Hazır mısınız?</h2>
               <p className="text-xl text-slate-300 mb-8">
                 Dijital büyüme yolculuğunuzda size eşlik etmekten mutluluk duyarız
@@ -170,8 +170,8 @@ export default function AboutPage() {
                   <Link href="/team">Takımımızı Tanıyın</Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -15,10 +15,10 @@ export default function Footer() {
     {
       title: "Hizmetler",
       links: [
-        { name: "Reklam Yönetimi", href: "/services#ads" },
-        { name: "Sosyal Medya", href: "/services#social" },
-        { name: "Tasarım", href: "/services#design" },
-        { name: "Web Sitesi", href: "/services#web" },
+        { name: "Reklam Yönetimi", href: "/services#reklam-yonetimi" },
+        { name: "Sosyal Medya", href: "/services#sosyal-medya" },
+        { name: "Tasarım", href: "/services#tasarim" },
+        { name: "Web Sitesi", href: "/services#web-sitesi" },
       ],
     },
     {

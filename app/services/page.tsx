@@ -18,6 +18,7 @@ import Link from "next/link"
 export default function ServicesPage() {
   const services = [
     {
+      id: "reklam-yonetimi",
       category: "Reklam Yönetimi",
       icon: TrendingUp,
       description: "Dijital reklam kampanyalarınızı profesyonel şekilde yönetiyoruz",
@@ -50,6 +51,7 @@ export default function ServicesPage() {
       ],
     },
     {
+      id: "sosyal-medya",
       category: "Sosyal Medya Çözümleri",
       icon: Users,
       description: "Sosyal medya varlığınızı güçlendirin ve topluluk oluşturun",
@@ -82,6 +84,7 @@ export default function ServicesPage() {
       ],
     },
     {
+      id: "tasarim",
       category: "Tasarım Çözümleri",
       icon: Zap,
       description: "Markanızı görsel olarak güçlendirin ve fark yaratın",
@@ -114,6 +117,7 @@ export default function ServicesPage() {
       ],
     },
     {
+      id: "web-sitesi",
       category: "Web Site Çözümleri",
       icon: Globe,
       description: "Modern ve etkili web siteleri ile dijital varlığınızı güçlendirin",
@@ -171,7 +175,7 @@ export default function ServicesPage() {
 
       {/* Services Sections */}
       {services.map((category, categoryIndex) => (
-        <section key={categoryIndex} className="py-16">
+        <section key={categoryIndex} id={category.id} className="py-16 scroll-mt-20">
           <div className="container mx-auto px-4">
             {/* Category Header */}
             <div className="text-center mb-16">
@@ -217,7 +221,7 @@ export default function ServicesPage() {
         </section>
       ))}
 
-     {/* CTA Section */}
+      {/* CTA Section */}
       <section className="py-24">
         <div className="container mx-auto px-4">
           <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm max-w-4xl mx-auto">
