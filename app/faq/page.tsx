@@ -173,8 +173,8 @@ export default function FAQPage() {
           ))}
 
           {/* Hala Cevap Bulamadınız */}
-          <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30">
-            <CardContent className="p-12 text-center">
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm">
+            <div className="p-12 text-center">
               <div className="w-20 h-20 bg-blue-600/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <HelpCircle className="w-10 h-10 text-blue-400" />
               </div>
@@ -197,8 +197,8 @@ export default function FAQPage() {
                   <Link href="/callback">Sizi Arayalım</Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
 
           {/* Hızlı Linkler */}
           <div className="grid md:grid-cols-3 gap-6">

@@ -193,8 +193,8 @@ export default function ReferencesPage() {
       {/* CTA Section */}
       <section className="py-24">
         <div className="container mx-auto px-4">
-          <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30 max-w-4xl mx-auto">
-            <CardContent className="p-12 text-center">
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm max-w-4xl mx-auto">
+            <div className="p-12 text-center">
               <h2 className="text-4xl font-bold text-white mb-6">Siz de Başarı Hikayemizin Parçası Olun</h2>
               <p className="text-xl text-slate-300 mb-8">
                 Markanızı dijital dünyada büyütmek için bizimle iletişime geçin
@@ -211,8 +211,8 @@ export default function ReferencesPage() {
                   <Link href="/callback">Ücretsiz Görüşme</Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </div>
       </section>
     </div>

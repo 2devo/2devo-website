@@ -216,8 +216,9 @@ export default function TermsOfServicePage() {
           </Card>
 
           {/* İletişim */}
-          <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30">
-            <CardContent className="p-8">
+          {/* İletişim */}
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm">
+            <div className="p-8">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center">
                   <Phone className="w-6 h-6 text-blue-400" />
@@ -236,8 +237,8 @@ export default function TermsOfServicePage() {
                 </div>
               </div>
               <p className="text-sm text-slate-400 mt-4">Son güncelleme: {new Date().toLocaleDateString("tr-TR")}</p>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </div>
       </div>
     </div>

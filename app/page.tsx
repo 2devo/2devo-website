@@ -195,8 +195,8 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-24">
         <div className="container mx-auto px-4">
-          <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30">
-            <CardContent className="p-12 text-center">
+          <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm">
+            <div className="p-12 text-center">
               <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">Projenizi Konuşalım</h2>
               <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
                 Dijital büyüme yolculuğunuzda size nasıl yardımcı olabileceğimizi keşfedelim
@@ -213,8 +213,8 @@ export default function HomePage() {
                   <Link href="/quick-appointment">Hızlı Randevu</Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </div>
       </section>
     </div>

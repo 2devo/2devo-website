@@ -197,9 +197,9 @@ export default function ContactPage() {
               </CardContent>
             </Card>
 
-            {/* Quick Actions */}
-            <Card className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30">
-              <CardContent className="p-8">
+             {/* Quick Actions */}
+            <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-lg backdrop-blur-sm">
+              <div className="p-8">
                 <h3 className="text-2xl font-bold text-white mb-4">Hızlı İşlemler</h3>
                 <div className="space-y-4">
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" asChild>
@@ -213,8 +213,9 @@ export default function ContactPage() {
                     <Link href="/quick-appointment">Hızlı Randevu</Link>
                   </Button>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
