@@ -10,7 +10,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navigation = [
-    { name: "Ana Sayfa", href: "/" },
     { name: "Hizmetlerimiz", href: "/services" },
     { name: "Referanslarımız", href: "/references" },
     { name: "Hakkımızda", href: "/about" },

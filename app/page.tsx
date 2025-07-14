@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Star, Users, TrendingUp, Zap, Globe } from "lucide-react"
+import { ArrowRight, Star, Users, TrendingUp, Zap, Globe, Sparkles } from "lucide-react"
 import Link from "next/link"
 
 export default function HomePage() {
@@ -70,7 +70,10 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20" />
         <div className="relative container mx-auto px-4 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-6 bg-blue-600/20 text-blue-300 border-blue-500/30">Digital Growth Partner</Badge>
+            <Badge className="mb-6 bg-blue-600/20 text-blue-300 border-blue-500/30">
+             <Sparkles className="w-4 h-4 mr-2" />
+            Digital Growth Partner
+            </Badge>
             <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               2devo ile
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
