@@ -15,7 +15,6 @@ export default function Header() {
     { name: "Referanslarımız", href: "/references" },
     { name: "Hakkımızda", href: "/about" },
     { name: "Blog", href: "/blog" },
-    { name: "İletişim", href: "/contact" },
   ]
 
   return (
